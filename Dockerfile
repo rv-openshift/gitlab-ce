@@ -1,6 +1,5 @@
 From gitlab/gitlab-ce
 Maintainer tso
-ENV 80 443
 EXPOSE 80 443
 
 VOLUME ["/srv/gitlab/config":"/etc/gitlab"]
